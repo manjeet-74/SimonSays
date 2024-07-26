@@ -1,42 +1,57 @@
 body {
-    text-align: center;
+  text-align: center;
+  background: #2d7d29;
 }
 
 .btn {
-    height: 150px;
-    width: 150px;
-    border-radius: 20%;
-    border: 5px solid rgb(0, 0, 0);
-    margin: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+  border: 5px solid rgb(0, 0, 0);
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
 }
 
 .btn-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line-one, .line-two{
     display: flex;
-    justify-content: center;
 }
 
 .red {
-    background-color: #ff1100;
+  background-color: rgb(255, 0, 0);
 }
 
 .yellow {
-    background-color: #00ff11;
+  background-color: #ffff00;
 }
 .green {
-    background-color: #63aac0;
+  background-color: #00ff00;
 }
 .purple {
-    background-color: #0000ff;
+  background-color: #e600ff;
 }
 
 .flash {
-    background-color: white;
+  background-color: white;
 }
 
 .userFlash {
-    background-color: rgb(245, 6, 229);
+  background-color: rgb(245, 6, 133);
+}
+
+h2{
+    font-size: 35px;
+}
+
+h1{
+    font-size: 45px;
 }
